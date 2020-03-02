@@ -1,0 +1,38 @@
+header,
+footer {
+    background: var(--primary);
+    color: var(--white);
+    min-height: 5rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+    span {
+        margin-left: 1rem;
+    }
+
+    @media (min-width: 67rem) {
+        min-height: 7.5rem;
+    }
+}
+
+header {
+    margin-bottom: 1rem;
+
+    @media (min-width: 67rem) {
+        margin-bottom: 2rem;
+    }
+}
+
+main {
+    width: 100%;
+    margin: 1rem;
+    padding: 1rem;
+    
+    @media (min-width: 67rem) {
+        min-width: 67rem;
+        max-width: 980rem;
+        margin: 0 auto 2rem;
+    }
+}

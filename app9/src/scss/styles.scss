@@ -1,0 +1,48 @@
+/* You can add global styles to this file, and also import other style files */
+$yankees-blue: #1E2E39;
+$cadet-grey: #9ea3b0;
+$cadet-blue: #1C3854;
+$black: #333;
+$white: #fefefe;
+
+
+:root {
+    --white: #fefefe;
+    --black: #333;
+    --accent: #1E2E39;
+    --secondary: #9ea3b0;
+    --primary: #1C3854;
+    --background-color: var(--white);
+    --text-color: var(--black);
+    --base-font-size: 10px;
+    background: var(--background-color);
+    color: var(--text-color);
+    font-size: var(--base-font-size);
+}
+
+body {
+    font-size: 1.8rem;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 1.8rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--primary);
+    font-weight: 600;
+}
+
+h1 { font-size: 2.8rem; }
+h2 { font-size: 2.6rem; }
+h3 { font-size: 2.3rem; }
+h4 { font-size: 2rem; }
+h5 { font-size: 1.8rem; }
+h6 { font-size: 1.8rem; }
